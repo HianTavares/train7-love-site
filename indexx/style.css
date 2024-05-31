@@ -1,0 +1,69 @@
+body {
+    background-color: rgb(16, 29, 45);
+    height: 100vh;
+    margin: 0;
+    padding: 0;
+}
+
+#all-flex {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+}
+
+#all {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 80%;
+    height: 85vh;
+    background: url('imagens/background.webp') no-repeat center center;
+    background-size: cover;
+    backdrop-filter: blur(1vw);
+    position: relative;
+}
+
+#proposta {
+    text-align: center;
+    position: relative;
+}
+
+h1{
+    display: inline-block;
+    padding: 10px 20px;
+    background: rgba(255, 255, 255, 0.3);
+    backdrop-filter: blur(5px);
+    border-radius: 10px;
+    
+}
+span{
+    color: rgba(39, 27, 27, 0.432);
+}
+    
+
+#yes {
+    width: 100px; /* Ajuste o tamanho conforme necessário */
+    height: 100px; /* Ajuste o tamanho conforme necessário */
+    background-image: url('imagens/digital-preta.png');
+    background-size: cover;
+    
+    cursor: pointer;
+    position: relative;
+    border-radius: 50%; /* Ajuste se necessário */
+}
+
+button:hover {
+    color: wheat;
+}
+#green-button{
+    color: black;
+    background-color: green;
+    border: 2px solid black;
+    border-radius: 10vh;
+}
+
+/*finally*/
+#finally-img{
+    width: 100%;
+}
